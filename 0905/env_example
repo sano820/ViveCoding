@@ -1,0 +1,30 @@
+# --- API Keys ---
+GOOGLE_API_KEY= 제미나이 api key
+
+# --- Kakao OAuth (개인 '나에게 보내기') ---
+KAKAO_ACCESS_TOKEN=받은 token 넣기
+KAKAO_REFRESH_TOKEN=받은 token 넣기
+KAKAO_REST_KEY=발급 받은 api 키 넣기
+KAKAO_REDIRECT_URI=http://localhost:8080  # 임의로 지정 가능!
+
+# code 받기
+# https://kauth.kakao.com/oauth/authorize?client_id=REST_API_KEY&redirect_uri=REDIRECT_URI&response_type=code&scope=talk_message
+# kakao authorization code
+#
+
+
+# 
+# curl -X POST "https://kauth.kakao.com/oauth/token" \
+#   -d "grant_type=authorization_code" \
+#   -d "client_id=REST_API_KEY" \
+#   -d "redirect_uri=REDIRECT_URI" \
+#   -d "code=발급받은_AUTHORIZATION_CODE"
+
+
+# {"access_token":"여기에 token","token_type":"bearer","refresh_token":"여기에 토큰","expires_in":21599,"scope":"talk_message","refresh_token_expires_in":5183999}
+
+
+# --- 위치 ---
+LAT=37.5563
+LON=126.9723
+CITY_NAME=서울역
