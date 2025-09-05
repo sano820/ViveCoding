@@ -21,7 +21,7 @@ KAKAO_REDIRECT_URI=http://localhost:8080  # 임의로 지정 가능!
 #   -d "code=발급받은_AUTHORIZATION_CODE"
 
 
-# {"access_token":"여기에 token","token_type":"bearer","refresh_token":"여기에 토큰","expires_in":21599,"scope":"talk_message","refresh_token_expires_in":5183999}
+# {"access_token":"여기에 token",.....,"refresh_token":"여기에 토큰",......}
 
 
 # --- 위치 ---
