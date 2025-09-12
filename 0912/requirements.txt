@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+langchain
+openai
+faiss-cpu
+pandas
+python-dotenv
+streamlit
