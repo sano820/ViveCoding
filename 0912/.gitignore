@@ -1,4 +1,7 @@
 .env
-__pycache__/
-*.pyc
+*.env
+*.db
+marketing.db
 .venv/
+__pycache__/
+*.log
