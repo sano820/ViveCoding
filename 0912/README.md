@@ -74,3 +74,15 @@
 
 ---
 
+
+### 실행
+```
+# 라이브러리 설치
+pip install -r requirements.txt
+
+# fastAPI 실행
+uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+
+# Streamlit 실행
+streamlit run dashboard/app.py
+```
