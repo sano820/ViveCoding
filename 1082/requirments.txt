@@ -1,0 +1,4 @@
+requests
+beautifulsoup4
+pypdf
+python-dotenv  # 새로 추가됨: .env 파일 관리를 위한 라이브러리
